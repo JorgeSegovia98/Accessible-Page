@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controles para Consolas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="main-title" tabindex="0">Controles para Consolas</h1>
+        <nav>
+            <ul>
+                <li><a href="#controls-title" tabindex="0">Catálogo</a></li>
+                <li><a href="#video-title" tabindex="0">Video Promocional</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="welcome-section">
+            <h2 id="welcome-title" tabindex="0">Bienvenido</h2>
+            <p tabindex="0">¡En nuestra página encontrarás información sobre los mejores controles para consolas de videojuegos!</p>
+        </section>
+
+        <section>
+            <h2 id="info-title" tabindex="0">Información sobre los Controles</h2>
+            <p tabindex="0">Aquí puedes encontrar información detallada sobre los controles disponibles para consolas de videojuegos.</p>
+        </section>
+
+        <section>
+            <h2 id="controls-title" tabindex="0">Controles Disponibles</h2>
+            <table aria-labelledby="controls-title">
+                <thead>
+                    <tr>
+                        <th tabindex="0">Nombre del Control</th>
+                        <th tabindex="0">Imagen</th>
+                        <th tabindex="0">Precio</th>
+                        <th tabindex="0">Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td tabindex="0">K35</td>
+                        <td tabindex="0">
+                            <img src="/images/control k35.jpg" alt="Imagen del control modelo k35" role="img" tabindex="0">
+                        </td>
+                        <td tabindex="0">$179.99</td>
+                        <td tabindex="0">El control K35 ofrece una experiencia de juego ergonómica con una duración de batería excepcional.</td>
+                    </tr>
+                    <tr>
+                        <td tabindex="0">W10</td>
+                        <td tabindex="0">
+                            <img src="images/control W10.jpg" alt="Imagen del control modelo W10" role="img" tabindex="0">
+                        </td>
+                        <td tabindex="0">$69.99</td>
+                        <td tabindex="0">El W10 es conocido por su precisión y compatibilidad con múltiples consolas.</td>
+                    </tr>
+                    <tr>
+                        <td tabindex="0">X3B</td>
+                        <td tabindex="0">
+                            <img src="images/control X3B.jpg" alt="Imagen del control modelo X3B" role="img" tabindex="0">
+                        </td>
+                        <td tabindex="0">$69.99</td>
+                        <td tabindex="0">El X3B combina un diseño moderno con funciones avanzadas para un rendimiento óptimo.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2 id="video-title" tabindex="0">Video Promocional</h2>
+            <video controls tabindex="0" style="max-width: 100%; height: auto;">
+                <source src="PromotionalVideo/VideoPromocional.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p tabindex="0">Contacto: Info@controlesparaconsolas </p>
+        <p tabindex="0">Dirección: Escuela Politécnica Nacional, Quito, Ecuador</p>
+    </footer>
+</body>
+</html>
